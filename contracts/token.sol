@@ -17,7 +17,7 @@ import "./Safemath.sol";
      
      mapping(address => uint256) private _balances;
      
-     constructor(string memory name, string memory symbol, uint8 decimals) public{
+     constructor() public{
          _name = "Coin Monitor Token";
          _symbol = "CMT";
          _decimals = 18;
@@ -44,7 +44,7 @@ import "./Safemath.sol";
          return _totalSupply;
      }
      
-     function balanceOf(address account, uint256 amount) public view returns(uint256){
+     function balanceOf(address account) public view returns(uint256){
          return _balances[account];
      }
      
