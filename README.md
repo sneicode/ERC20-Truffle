@@ -1,6 +1,6 @@
 # ERC20-Truffle
 
-Hand in a link to your code in Google Classroom.
+Bootcamp ERC20 Truffle Assignment 
 
 - Create a new folder with new truffle project in it.
 - Add all your ERC20 code into the project.
