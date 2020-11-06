@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: SPDX-License
+
 pragma solidity 0.7.0;
 
 import "./Ownable2.sol";
@@ -65,7 +67,7 @@ import "./Safemath.sol";
          require(amount <= _balances[msg.sender], "Insufficient funds");
 
          _balances[recipient] = _balances[recipient].add(amount);
-         _balance[msg.sender] = _balances[msglsender].sub(amount);
+         _balances[msg.sender] = _balances[msg.sender].sub(amount);
          
          emit Transfer(owner, recipient, amount);
          

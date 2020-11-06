@@ -1,4 +1,6 @@
-pragma solidity 0.6.6;
+// SPDX-License-Identifier: SPDX-License
+
+pragma solidity 0.7.0;
 
 contract Ownable2{
     
